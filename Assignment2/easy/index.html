@@ -3,9 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>ScaleX - Home</title>
+    <link rel="shortcut icon" href="./image.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    
+    <!-- NAVBAR -->
+    <div id="navbar">
+      <!-- logo + name -->
+      <div id="logo">
+        <img id=logo-img src="./image.png" alt="logo" />
+        <h1 style="font-size: 40px; font-family:'Gilroy', sans-serif;">ScaleX</h1>
+      </div>
+
+      <!-- navbar -->
+      <div id="nav">
+        <div class="nav-child">Home</div>
+        <div class="nav-child">About Us</div>
+        <div class="nav-child">Blogs</div>
+        <div class="nav-child">Contact Us</div>
+      </div>
+
+      <button id="button">Get Started</button>
+    </div>
+
+    <!--  -->
+    <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 80px;text-align: center; margin-top: 20px;">Insights & Blogs</h1>
+
+    <!-- BUTTON FLEXBOX -->
+    <div id="optionsflex">
+      <button class="options-child" style="background-color: #FE4909;">All</button>
+      <button class="options-child">Tech</button>
+      <button class="options-child">SaaS</button>
+      <button class="options-child">Marketing</button>
+    </div>
+
+    <!-- CONTENT FLEXBOX -->
+    <div id="content">
+      <div class="content-child">
+        <img class="card" src="https://thumbs.dreamstime.com/b/classic-martini-cocktail-green-olives-red-background-refreshing-alcohol-drink-clear-liquid-glass-perfect-bar-409744673.jpg" alt="bar-glass">
+        <h6 class="tag">Tech</h6>
+        <h4 class="description">The Ultimate Guide To SaaS Marketing</h4>
+        <h6 class="date">May 23, 2025</h6>
+      </div>
+      <div class="content-child">
+        <div class="card"><img src="https://assets.lummi.ai/assets/QmaLJLztpwec5dhRriuXGij4xsiR4EvtPiLvKMi7b2u7qe?auto=format&w=640" alt="chair"></div>
+        <h6 class="tag">SaaS</h6>
+        <h4 class="description">5 Key Trends In SaaS Growth For 2025</h4>
+        <h6 class="date">May 23, 2025</h6>
+      </div>
+      <div class="content-child">
+        <div class="card"><img src="https://static.vecteezy.com/system/resources/thumbnails/048/639/868/small/playful-cats-on-a-b-red-background-emphasizing-their-nature-free-photo.jpg" alt="cat"></div>
+        <h6 class="tag">Marketing</h6>
+        <h4 class="description">How Data-Driven Strategies Are Important</h4>
+        <h6 class="date">May 23, 2025</h6>
+      </div>
+    </div>
+
   </body>
 </html>
