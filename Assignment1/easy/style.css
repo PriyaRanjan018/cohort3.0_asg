@@ -83,7 +83,8 @@ h4{
 }
 
 
-#menu-icon{
+/* menu */
+#menu{
     position: absolute;
     left: 82%;
     top: 4%;
@@ -100,6 +101,7 @@ h4{
 }
 
 
+/* small 5 circles */
 #cluster{
     position: absolute;
     left: 87%;
@@ -117,6 +119,7 @@ h4{
 }
 
 
+/* pokemon ball */
 #ball{
     position: fixed;
     /* top: 0%; */
