@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+/* LEFT-SIDE */
+#left-side {
+    border: 1px solid rebeccapurple;
+
+    width: 50%;
+    height: 100%;
+
+    background-color: white;
+
+}
+
+#navbar-l {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 20px;
+
+}
+
+#ls-down {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 0px;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+
+}
+
+#ls-down-ls {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: bolder;
+    rotate: -90deg;
+    text-align: center;
+    font-size: 60px;
+    height: 50px;
+
+    /* position: relative; */
+    /* left: -50px; */
+    /* top: 270px; */
+}
+
+#ls-down-rs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+
+    /* position: relative; */
+    /* top: 100px; */
+
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+/* RIGHT-SIDE */
+#right-side {
+    border: 1px solid red;
+
+    width: 50%;
+    height: 100%;
+
+    background-color: #B93930;
+
+
+}
+
+
+#navbar-r {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+
+    margin-top: 30px;
+
+
+}
+
+.nav-tag {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: white;
+
+}
+
+#rs-down {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    /* top: 100px; */
+
+}
+
+
+
+
+.toggle{
+    width: 33px;
+    height: 19px;
+    background: #d98d7d;
+    border-radius: 30px;
+    position: relative;
+}
+
+.toggle::before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.collection-btn{
+    width: 240px;
+    padding: 18px 0;
+    border: none;
+    border-radius: 18px;
+
+    background: #e7d0a7;
+    color: #2c2c2c;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+
+    cursor: pointer;
+}
