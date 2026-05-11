@@ -1,35 +1,247 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ASTRO</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-static@latest/font/lucide.css">
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ASTRO</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-static@latest/font/lucide.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+  <div id="main">
     <!-- NAVBAR -->
     <div id="navbar">
-        <!-- logo -->
-        <div id="logo">
-          <h1 style="font-family: 'Montserrat', sans-serif; font-weight: 800; letter-spacing: -1px;">ASTRO</h1>
+      <!-- logo -->
+      <div id="logo">
+        <h1 style="font-family: 'Montserrat', sans-serif; font-weight: 800; letter-spacing: -1px;">ASTRO</h1>
+        <div
+          style="position: relative;left:110px; top:-15px; height: 10px; width: 10px; background-color: #f57c00; border-radius: 20px;">
         </div>
-
-        <!-- navbar -->
-        <div id="nav">
-          <div class="nav-child">PRODUCTS</div>
-          <div class="nav-child">CATEGORY</div>
-          <div class="nav-child">ABOUT US</div>
-          <div class="nav-child">CONTACT</div>
-        </div>
-
-        <div id="icons">
-            <i class="icon-search"></i>
-            <i class="icon-shopping-cart"></i>
-            <i class="icon-user"></i>
-        </div>
-
-        <!-- <button id="button"><img src="./search.png" alt=""></button> -->
       </div>
-  </body>
+
+      <!-- navbar -->
+      <div id="nav">
+        <div class="nav-child">PRODUCTS</div>
+        <div class="nav-child">CATEGORY</div>
+        <div class="nav-child">ABOUT US</div>
+        <div class="nav-child">CONTACT</div>
+      </div>
+
+      <div id="icons">
+        <i class="icon-search"></i>
+        <i class="icon-shopping-cart"></i>
+        <i class="icon-user"></i>
+      </div>
+
+      <!-- <button id="button"><img src="./search.png" alt=""></button> -->
+    </div>
+
+
+
+    <img id="jacket" src="./beigeJ.png" alt="jacket">
+
+
+    <div id="left-right">
+      <div id="left-side">
+        <p class="ls-up" style="font-weight: 900; font-size: 24px; margin-bottom: 20px; color: #E96107;">NEW</p>
+        <p class="ls-up">ASTRO</p>
+        <p class="ls-up">WINTER</p>
+        <p class="ls-up">ARMOR <span style="color: #E96107;">II</span></p>
+        <p class="ls-up" style="font-weight: 700; font-size: 50px; margin-top: 20px;">$560</p>
+        <hr>
+        <p class="ls-head">DESCRIPTION</p>
+        <p
+          style="width: 35%;font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 400; line-height: 1.6; color: #2b2b2b; line-height: 25px; margin: 10px 0px 10px 0px;">
+          A next-gen cold war jacket. The essence of retro style and the resilience you need for extreme winter
+          conditions. Engineered to provide versatile function for your winter wardrobe, accented with strategic utility
+          details.</p>
+        <p style="font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: 700; letter-spacing: 0.5px;">READ
+          MORE <i style="rotate: 0deg; color: #E96107; margin-left: 10px;" class="fa-solid fa-chevron-right"></i></p>
+        <hr>
+        <p class="ls-head">MATERIAL & CARE <i class="fa-solid fa-chevron-right"></i></p>
+
+        <hr>
+        <p class="ls-head">SHIPPING & RETURNS <i class="fa-solid fa-chevron-right"></i></p>
+
+      </div>
+
+
+      <div id="right-side">
+        <p class="rs-up">SIZE</p>
+        <div style="display: flex; gap: 15px; align-items: flex-end; justify-content: flex-end; margin-bottom: 25px;">
+          <div class="sizes-box">S</div>
+          <div class="sizes-box" style="background-color: #f57c00; color: white;">M</div>
+          <div class="sizes-box">L</div>
+          <div class="sizes-box">XL</div>
+        </div>
+        <p class="rs-up" style="font-size: 18px; font-weight: 700; letter-spacing: 0.5px; padding-right: 60px;">SIZE
+          GUIDE<i style="rotate: 0deg; color: #E96107; margin-left: 10px;" class="fa-solid fa-chevron-right"></i></p>
+        <hr style="border: none;
+        height: 1px;
+        background-color: #444443;
+        width: 230px;
+        position: relative;
+        left: 63%;">
+        <p class="rs-up">COLOR</p>
+        <div id="choise">
+          <img class="Jchoise" src="./blackJ.png" alt="jacket">
+          <img class="Jchoise" src="./redJ.png" alt="jacket">
+          <h6 class="catName">BLACK</h6>
+          <h6 class="catName">RED</h6>
+
+
+          <img class="Jchoise" src="./whiteJ.png" alt="jacket">
+          <img class="Jchoise" src="./beigeJ.png" alt="jacket">
+          <h6 class="catName"">BEIGE</h6>
+          <h6 class=" catName">WHITE</h6>
+
+          <div class="button-container">
+            <button class="wishlist-btn">
+              ♡ ADD TO WISHLIST
+            </button>
+
+            <button class="cart-btn">
+              ADD TO BAG 🛍
+            </button>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div id="buttom">
+      <div id="buttom-up">
+
+        <div class="feature-box">
+          <i class="fa-regular fa-snowflake" style="font-size: 25px; color: #8D8880;"></i>
+          <span>EXTREME WARMTH</span>
+        </div>
+
+        <div class="feature-box">
+          <i class="fa-solid fa-shield" style="font-size: 25px; color: #8D8880;"></i>
+          <span>WIND RESISTANT</span>
+        </div>
+
+        <div class="feature-box">
+          <i class="fa-solid fa-feather" style="font-size: 25px; color: #8D8880;"></i>
+          <span>LIGHTWEIGHT</span>
+        </div>
+
+      </div>
+
+      <div id="buttom-mid">
+
+        <img src="b1.png" alt="" style="height: 97%;border-radius:20px; margin: 5px 0px 5px 0px;">
+        <div class="feature-card">
+
+          <div class="feature-text">
+            <h3>3X WATER-REPELLENT</h3>
+            <p>
+              The fabric repels rain, snow and moisture while keeping you dry and comfortable.
+            </p>
+          </div>
+        </div>
+
+        <img src="b2.png" alt="" style="height: 97%;border-radius:20px; margin: 5px 0px 5px 0px;">
+        <div class="feature-card">
+
+          <div class="feature-text">
+            <h3>3D AREAS PUFFERED</h3>
+            <p>
+              Strategically padded zones trap heat and maximize insulation without the bulk.
+            </p>
+          </div>
+        </div>
+
+
+        <!-- <div style="height: 100%; width: 30%; border-radius:20px"> -->
+        <img src="b3.png" alt="" style="height: 97%; width: 140px;;border-radius:20px; margin: 5px 0px 5px 0px;">
+        <!-- </div> -->
+        <div class="feature-card">
+
+          <div class="feature-text">
+            <h3>INSULATION</h3>
+            <p>
+              Advanced thermal filling locks in warmth up to -30°C for extreme conditions.
+            </p>
+          </div>
+        </div>
+
+
+        <img src="b4.png" alt="" style="height: 97%;border-radius:20px; margin: 5px 0px 5px 0px;">
+        <div class="feature-card">
+          <!-- <div style="border: 2px solid rebeccapurple;"></div> -->
+
+          <div class="feature-text">
+            <h3>UTILITY POCKETS</h3>
+            <p>
+              Multi-functional pockets for secure storage on the go.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="buttom-down">
+
+        <img src="icon1.png" alt="" style="height: 90px;">
+        <div class="box">  
+          <div class="text">
+              <h3>PREMIUM FABRICS</h3>
+              <p>Durable, high-performance materials.</p>
+          </div>
+      </div>
+  
+      <div class="line"></div>
+  
+
+      <img src="icon2.png" alt="" style="height: 100px;">
+      <div class="box">
+  
+          <div class="text">
+              <h3>THERMAL PROTECTION</h3>
+              <p>Built for extreme winter climates.</p>
+          </div>
+      </div>
+  
+      <div class="line"></div>
+  
+
+      <img src="icon3.png" alt="" style="height: 90px;">
+      <div class="box">
+  
+          <div class="text">
+              <h3>DESIGNED FOR FUNCTION</h3>
+              <p>Every detail serves a purpose.</p>
+          </div>
+      </div>
+  
+      <div class="line"></div>
+  
+
+
+      <img src="icon4.png" alt="" style="height: 90px;">
+      <div class="box">
+  
+          <div class="text">
+              <h3>LIMITED EDITION</h3>
+              <p>Exclusive drops, limited quantities.</p>
+          </div>
+      </div>
+  
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+  </div>
+</body>
+
 </html>
