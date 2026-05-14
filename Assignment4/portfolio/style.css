@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    padding: 20px;
+}
+
+
+.parent {
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 4% 40% 1fr 1fr 1fr;
+    grid-template-rows: 20% 46% 27%;
+    grid-template-areas:
+        "nav main portfolioN portfolioN portfolioN"
+        "nav main bird bird proAwd"
+        "nav main clients sphere sphere";
+
+    gap: 30px;
+}
+
+nav {
+    grid-area: nav;
+    height: 100%;
+    width: 100%;
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    row-gap: 150px;
+
+
+
+    /* transform: rotate(90deg); */
+}
+
+.nav-items {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+    transform: rotate(-90deg);
+}
+
+
+
+main {
+    grid-area: main;
+    height: 100%;
+    width: 100%;
+
+    background-color: #8184D2;
+
+    border-radius: 20px;
+
+}
+
+.portfolioN {
+    grid-area: portfolioN;
+    height: 100%;
+    width: 100%;
+
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 90px;
+
+    border-radius: 20px;
+
+}
+
+.bird {
+    grid-area: bird;
+    height: 100%;
+    width: 100%;
+
+    background-color: #7EBAC3;
+    background-image: url(Assets/bird.png);
+    background-size: cover;
+
+    border-radius: 20px;
+}
+
+.proAwd {
+    grid-area: proAwd;
+    height: 100%;
+    width: 100%;
+
+    background-color: blue;
+
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+}
+
+.clients {
+    grid-area: clients;
+    height: 100%;
+    width: 100%;
+
+    background-color: #585858;
+    background-image: url(Assets/apple.png);
+    background-size: cover;
+
+    border-radius: 20px;
+}
+
+.sphere {
+    grid-area: sphere;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+
+    border-radius: 20px;
+
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
